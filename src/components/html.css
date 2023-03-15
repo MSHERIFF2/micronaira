@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(71, 71, 219);
+    color: white;
+    text-align: justify;
+    margin: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width:1500px) {
+    div h1{
+        text-align: center;
+        font-size: medium;
+    }
+    div h1 #orange{
+        color: orange;
+    }
+    div h1 #green{
+        color: rgb(100, 224, 100);
+    }
+    
+    .loginForm {
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        clear: both;
+        
+    }
+    .loginForm #logo{
+        background-color: orange;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
+    
+    .loginForm #logo #lo{
+        color: blue;
+        font-size: 50px;
+        font-family: 'gothic';
+    }
+    .loginForm #logo #go{
+        color: green;
+        font-size: 50px;
+        font-family: 'Gothic'
+    }
+    
+    .loginForm Form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 3px solid rgb(48, 218, 48);
+        width: 45%;
+        height: 300px;
+        border-radius: 30px;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(239, 242, 243, 0.5);
+        margin-bottom: 20px;
+    }
+    
+}
+
